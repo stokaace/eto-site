@@ -1,60 +1,38 @@
 /* This example requires Tailwind CSS v2.0+ */
-import { AnnotationIcon, GlobeAltIcon, LightningBoltIcon, MailIcon, ScaleIcon } from '@heroicons/react/outline'
+import { AnnotationIcon, SwitchHorizontalIcon, LightningBoltIcon, DatabaseIcon } from '@heroicons/react/outline'
 
-const transferFeatures = [
-  {
-    id: 1,
-    name: 'Competitive exchange rates',
-    description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-    icon: GlobeAltIcon,
-  },
-  {
-    id: 2,
-    name: 'No hidden fees',
-    description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-    icon: ScaleIcon,
-  },
-  {
-    id: 3,
-    name: 'Transfers are instant',
-    description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-    icon: LightningBoltIcon,
-  },
-]
+
 const communicationFeatures = [
   {
     id: 1,
     name: 'Integrations',
     description:
       'Connect to Coco, ROS, Kitti, Nuscenes, and more.',
-    icon: AnnotationIcon,
+    icon: SwitchHorizontalIcon,
   },
   {
     id: 2,
     name: 'Managed',
     description:
       'Run ETL jobs without worrying about cluster scaling or resource management.',
-    icon: MailIcon,
+    icon: LightningBoltIcon,
   },
   {
     id: 2,
     name: 'Flexible',
     description:
       'Store data in your own data lake.',
-    icon: MailIcon,
+    icon: DatabaseIcon,
   }
 ]
 
 export default function FeatureInsights() {
   return (
-    <div className="py-16 bg-gray-50 overflow-hidden lg:py-24">
+    <div className="py-8 bg-gray-50 overflow-hidden lg:py-12">
       <div className="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
         
 
-        <div className="relative mt-12 sm:mt-16 lg:mt-24">
+        <div className="relative mt-8 sm:mt-16 lg:mt-12">
           <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
             <div className="lg:col-start-2">
               <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">Turn-key ingestion for AI data</h3>
@@ -103,7 +81,7 @@ export default function FeatureInsights() {
               <img
                 className="relative mx-auto"
                 width={490}
-                src="https://tailwindui.com/img/features/feature-example-2.png"
+                src="img/datasets.png"
                 alt=""
               />
             </div>

@@ -8,20 +8,19 @@ import  Screen  from './components/screen'
 import  GetAccess  from './components/get_access'
 import  FeatureInsights  from './components/feature_insights'
 import  Integrations  from './components/integrations'
-
-
+import  FeatureDataConsistency  from './components/feature_data_consistency'
 
 
 function App() {
   return (
     <>
     <Hero/>
-    <a id="features"/>
     <Integrations/>
+    <a id="features"/>
     <Benefits/>
     <Screen/>   
-      
     <FeatureInsights/>
+    <FeatureDataConsistency/>
     <GetAccess/>     
     <Footer/>
    
