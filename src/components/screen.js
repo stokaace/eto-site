@@ -9,7 +9,7 @@ export default function Screen() {
           <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
             <div>
               <div>
-                <span className="h-12 w-12 rounded-md flex items-center justify-center bg-indigo-600">
+                <span className="h-12 w-12 rounded-md flex items-center justify-center bg-primary-600">
                   <ChartSquareBarIcon className="h-6 w-6 text-white" aria-hidden="true" />
                 </span>
               </div>
@@ -24,7 +24,7 @@ all using simple SQL or DataFrame APIs.
                 <div className="mt-6">
                   <a
                     href="https://docs.google.com/forms/d/e/1FAIpQLSeWELVcsea5eKnwjoTGjjNJnqgVm4-APtYkpLPioKgYlihK6Q/viewform"
-                    className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
+                    className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-primary-600 hover:bg-primary-700"
                   >
                     Get access
                   </a>

@@ -32,11 +32,11 @@ export default function Hero() {
                       <span className="sr-only">Workflow</span>
                       <img
                         className="h-4 w-auto sm:h-8"
-                        src="img/logo.svg"
+                        src="img/logo.png"
                       />
                     </a>
                     <div className="-mr-2 flex items-center md:hidden">
-                      <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                      <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary-500">
                         <span className="sr-only">Open main menu</span>
                         <MenuIcon className="h-6 w-6" aria-hidden="true" />
                       </Popover.Button>
@@ -49,7 +49,7 @@ export default function Hero() {
                       {item.name}
                     </a>
                   ))}
-                  <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">
+                  <a href="#" className="font-medium text-primary-600 hover:text-primary-500">
                     Get Access
                   </a>
                 </div>
@@ -74,11 +74,11 @@ export default function Hero() {
                     <div>
                     <img
                         className="h-4 w-auto sm:h-8"
-                        src="img/logo.svg"
+                        src="img/logo.png"
                       />
                     </div>
                     <div className="-mr-2">
-                      <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                      <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary-500">
                         <span className="sr-only">Close main menu</span>
                         <XIcon className="h-6 w-6" aria-hidden="true" />
                       </Popover.Button>
@@ -97,7 +97,7 @@ export default function Hero() {
                   </div>
                   <a
                     href="https://docs.google.com/forms/d/e/1FAIpQLSeWELVcsea5eKnwjoTGjjNJnqgVm4-APtYkpLPioKgYlihK6Q/viewform"
-                    className="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100"
+                    className="block w-full px-5 py-3 text-center font-medium text-primary-600 bg-gray-50 hover:bg-gray-100"
                   >
                     Get Access
                   </a>
@@ -110,7 +110,7 @@ export default function Hero() {
             <div className="sm:text-center lg:text-left">
               <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
                 <span className="block xl:inline">All of your AI data needs </span>{' '}
-                <span className="block text-indigo-600 xl:inline">in one platform</span>
+                <span className="block text-primary-600 xl:inline">in one platform</span>
               </h1>
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
               A single place for all of your data needs for
@@ -120,7 +120,7 @@ ETL, analytics, training, sharing, and more.
                 <div className="rounded-md shadow">
                   <a
                     href="https://docs.google.com/forms/d/e/1FAIpQLSeWELVcsea5eKnwjoTGjjNJnqgVm4-APtYkpLPioKgYlihK6Q/viewform"
-                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
+                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-primary-600 hover:bg-primary-700 md:py-4 md:text-lg md:px-10"
                   >
                     Get Access
                   </a>
@@ -134,7 +134,7 @@ ETL, analytics, training, sharing, and more.
       <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
         <img
           className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-          src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"
+          src="img/hero-photo.jpeg"
           alt=""
         />
       </div>
